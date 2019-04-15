@@ -19,6 +19,8 @@ POST     | connector/bitbucket/uninstalled
 >
 > `https://{APP_URL}/connector/bitbucket/atlassian-connect.json`
 
+> {tip} Bitbucket will post their app secret to the `installed` endpoint. Your app should store this to authenticate Bitbucket requests using JWT authentication.
+
 # Confirm Config
 
 A new file should be available at `./config/gitconnector.php`.
