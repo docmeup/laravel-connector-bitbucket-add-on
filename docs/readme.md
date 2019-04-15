@@ -1,3 +1,5 @@
+Learn more about [Integrating with Bitbucket Cloud](https://developer.atlassian.com/cloud/bitbucket/integrating-with-bitbucket-cloud/).
+
 # Install
 
 1. Get package via composer: `composer require docmeup/laravel-connector-bitbucket`
