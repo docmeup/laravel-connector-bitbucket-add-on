@@ -1,6 +1,7 @@
 {
     "name": "docmeup/laravel-connector-bitbucket",
     "description": "Creates ready-to-go bitbucket app connector endpoints",
+    "version": "1.0.1",
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +10,9 @@
         }
     ],
     "require": {
-        "laravel/framework": "5.8.*",
+        "laravel/framework": "5.8.*"
+    },
+    "suggest": {
         "firebase/php-jwt": "5.0.*"
     },
     "autoload": {
@@ -20,7 +23,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "DocMeUp\\Connector\\Bitbucket\\App\\Providers\\ConfigPublishProvider",
+                "DocMeUp\\Connector\\Bitbucket\\App\\Providers\\ConfigServiceProvider",
+                "DocMeUp\\Connector\\Bitbucket\\App\\Providers\\ResourcesServiceProvider",
                 "DocMeUp\\Connector\\Bitbucket\\App\\Providers\\RouteServiceProvider"
             ]
         }

@@ -5,7 +5,7 @@ namespace DocMeUp\Connector\Bitbucket\App\Providers;
 use DocMeUp\Connector\Bitbucket\Registrar;
 use Illuminate\Support\ServiceProvider;
 
-class ConfigPublishProvider extends ServiceProvider
+class ConfigServiceProvider extends ServiceProvider
 {
     /**
      * Register bindings in the container.
