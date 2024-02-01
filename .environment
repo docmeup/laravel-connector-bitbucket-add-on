@@ -1,0 +1,5 @@
+
+
+# Set Laravel-specific environment variables
+export DB_CONNECTION="$DB_SCHEME"
+export DB_DATABASE="$DB_PATH"
